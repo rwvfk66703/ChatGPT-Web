@@ -95,7 +95,7 @@ function WideScreen() {
 
       <div className={styles["window-content"]}>
         <Routes>
-          <Route path={Path.Home} element={<Chat />} />
+          
           <Route path={Path.Chat} element={<Chat />} />
           <Route path={Path.Settings} element={<Settings />} />
         </Routes>
